@@ -1,0 +1,42 @@
+{
+  "name": "Calculadora Incomum",
+  "short_name": "Calc Incomum",
+  "icons": [
+    {
+      "src": "images/icone.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon_144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon_1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon_256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "Site de Calculadora",
+  "categories": ["matemática", "educação", "ensino"]
+}
