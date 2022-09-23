@@ -11,3 +11,38 @@ Ass:
   MaVi.
 
 Link: https://spiffy-mousse-a821b7.netlify.app/index.html
+
+
+
+        './index.html',
+        './assets/css/main.css',
+        './assets/js/main.js',
+        './calc.html',
+        './calc.js',
+        './manifest.json',
+        './calc.css',
+        '.assets/css/fontawesome-all.min',
+        '.assets/css/noscript',
+        '.assets/css/images/bg.jpg',
+        '.assets/css/images/overlay.png',
+
+        './assets/js/breakpoints.js',
+        './assets/js/browser.min',
+        './assets/js/Calculadora.js',
+        './assets/js/jquery.min',
+        './assets/js/util.js',
+
+        './assets/js/sass/libs/_breakpoints.scss',
+        './assets/js/sass/libs/_functions.scss',
+        './assets/js/sass/libs/_html-grid.scss',
+        './assets/js/sass/libs/_mixins.scss',
+        './assets/js/sass/libs/_vars.scss',
+        './assets/js/sass/libs/_vendor.scss',
+        './assets/sass/main.scss',
+        './assets/sass/noscript.scss',
+
+        './images/icon_144.png',
+        './images/icon_256.png',
+        './images/icon_512.png',
+        './images/icon_1024.png',
+        './images/icone.png'
