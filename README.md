@@ -10,7 +10,7 @@ Colab com: manda-vit
 Ass:
   MaVi.
 
-Link: https://spiffy-mousse-a821b7.netlify.app/index.html
+Link: [https://spiffy-mousse-a821b7.netlify.app/index.html](https://brilliant-florentine-17567d.netlify.app)
 
 
 
