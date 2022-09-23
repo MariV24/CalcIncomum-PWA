@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Calculadora incomum</title>
+		<meta charset="utf-8" />
+		<meta name="theme-color" content="#000000">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="manifest" href="/manifest.json">
+		<script src="calculadora.js"></script>
+
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="msapplication-TileImage" content="assets/img/icon_144.png">
+		<meta name="msapplication-TileColor" content="#31506F">
+		<meta name="theme-color" content="#4D5360" />
+		<link rel="shortcut icon" sizes="192x192" href="assets/img/icon_192.png">
+		<link rel="shortcut icon" sizes="128x128" href="assets/img/icon_128.png">
+	  
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="PWA Teste">
+		<link rel="apple-touch-icon" href="assets/img/icon_144.png">
+		<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="assets/img/icon_152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon_180.png">
+		<link rel="apple-touch-icon" sizes="167x167" href="assets/img/icon_167.png">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link href="assets/img/ios/ipad.png" sizes="3200x4267" rel="apple-touch-startup-image" />
+		<link href="assets/img/ios/ipadpro.png" sizes="3475x4633" rel="apple-touch-startup-image" />
+		<link href="assets/img/ios/ipadpro2.png" sizes="4267x5692" rel="apple-touch-startup-image" />
+		<link href="assets/img/ios/Iphone6Plus.png" sizes="2588x4600" rel="apple-touch-startup-image" />
+		<link href="assets/img/ios/Iphone7.png" sizes="1563x2779" rel="apple-touch-startup-image" />
+		<link href="assets/img/ios/IphoneSE-05.png" sizes="1333x2367" rel="apple-touch-startup-image" />
+		<link href="assets/img/ios/IphoneX-05.png" sizes="2344x5075" rel="apple-touch-startup-image" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="calc.html" class="icon solid fa-folder"><span>Calculadora</span></a>
+						<a href="#work1" class="icon solid fa-folder"><span>Incomum</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contato</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Seja bem-vindo!</h1>
+									<p>No site da "Calculadora Incomum", você acha calculos e informações que talvez você saiba, mas não especificamente.</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+						<!--<article id="work" class="panel">
+								<header>
+									<h2>Calculadora</h2>
+								</header>
+								<p>
+									Uma calculadora comum.
+								</p>
+
+								<!-- Referencia do: https://programadoresdepre.com.br/como-criar-uma-calculadora-com-html-css-e-javascript/ -->
+							<!--<div class="fundo">
+									<p id="resultado"></p>
+									<table>
+										<tr>
+											<td><button class="botao" onclick="clean()">C</td>
+											<td><button class="botao" onclick="back()"><</td>
+											<td><button class="botao" onclick="insert('/')">/</button></td>
+											<td><button class="botao" onclick="insert('*')">*</button></td>
+										</tr>
+										<tr>
+											<td><button class="botao" onclick="insert('7')">7</button></td>
+											<td><button class="botao" onclick="insert('8')">8</button></td>
+											<td><button class="botao" onclick="insert('9')">9</button></td>
+											<td><button class="botao" onclick="insert('-')">-</button></td>
+										</tr>
+										<tr>
+											<td><button class="botao" onclick="insert('4')">4</button></td>
+											<td><button class="botao" onclick="insert('5')">5</button></td>
+											<td><button class="botao" onclick="insert('6')">6</button></td>
+											<td><button class="botao" onclick="insert('+')">+</button></td>
+										</tr>
+										<tr>
+											<td><button class="botao" onclick="insert('1')">1</button></td>
+											<td><button class="botao" onclick="insert('2')">2</button></td>
+											<td><button class="botao" onclick="insert('3')">3</button></td>
+											<td rowspan="2"><button class="botao" style="height: 106px;" onclick="calcular()">=</button></td>
+										</tr>
+										<tr>
+											<td colspan="2"><button class="botao" style="width: 106px;" onclick="insert('0')">0</button></td>
+											<td><button class="botao" onclick="insert('.')">.</button></td>
+										</tr>
+									</table>
+								</div>
+							</article> -->
+
+						<!-- Work -->
+							<article id="work1" class="panel">
+								<header>
+									<h2>Calculadora incomum</h2>
+								</header>
+								<p>
+									Calculos incomuns.
+								</p>
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div>
+									</div>
+								</section>
+								<p>
+									Nos mande idéias clicando <a href="#contact">aqui.</a>
+								</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contate-me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Nome" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="E-mail" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Assunto" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Mensagem..." rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Enviar" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Vivi Souza</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+				let newWorker;
+				if ('serviceWorker' in navigator) {
+				  navigator.serviceWorker.register('/serviceworker.js').then(reg => {
+					reg.addEventListener('updatefound', () => {
+					  // A wild service worker has appeared in reg.installing!
+					  newWorker = reg.installing;
+					  newWorker.addEventListener('statechange', () => {
+						// Has network.state changed?
+
+					  });
+					});
+				  });
+				  let refreshing;
+				  navigator.serviceWorker.addEventListener('controllerchange', function () {
+					if (refreshing) return;
+					window.location.reload();
+					refreshing = true;
+				  });
+				}
+			  </script>
+
+	</body>
+</html>
